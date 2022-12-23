@@ -34,7 +34,7 @@
     let l_email = document.getElementById("l_email");
     let l_password = document.getElementById("l_password");
     let loginButton = document.getElementById("loginButton");
-    const backendURL = 'http://localhost:8000';
+    const backendURL = 'https://django-server-production-9b32.up.railway.app';
     const loginURL = backendURL + '/authentication/login/';
     const signupURL = backendURL + '/authentication/signup/';
     // Example POST method implementation:
